@@ -100,10 +100,6 @@ ul {
     display: flex;
     column-gap: 30px;
     align-items: flex-start;
-    
-    
-
-    
 }
 
 .media{
@@ -125,4 +121,23 @@ ul {
     max-height: 150px;
 }
 
+.sec3-container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    align-items: center;
+    padding: 100px 300px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    row-gap: 20px;
+}
+
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+}
 
