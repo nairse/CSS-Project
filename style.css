@@ -31,6 +31,8 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 12px;
+    border-style: solid; 
+    border-color: #3882F6;
 }
 
 .sec1-container {
@@ -139,5 +141,42 @@ ul {
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
+}
+
+.call-container{
+    padding: 50px 125px;
+    background-color: #3882F6;
+    max-width: 700px;
+    max-height: 300px;
+    margin: 100px 225px;
+    display: flex;
+    color: white;
+    justify-content: space-between;   
+    border-radius: 10px;
+}
+
+.call-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-sub-header{
+    color: gainsboro;
+    font-size: 16px;
+}
+
+.call-container .signup {
+    
+    border-color: white;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 125px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
